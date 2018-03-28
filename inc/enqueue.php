@@ -19,6 +19,9 @@ if ( ! function_exists( 'understrap_scripts' ) ) {
 		if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
 			wp_enqueue_script( 'comment-reply' );
 		}
+
+//		Enqueue Greensock file
+		wp_enqueue_script('gsap-scripts', 'https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.3/TweenMax.min.js');
 	}
 } // endif function_exists( 'understrap_scripts' ).
 

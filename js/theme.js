@@ -3926,3 +3926,5 @@ Object.defineProperty(exports, '__esModule', { value: true });
 		}, false );
 	}
 })();
+
+TweenMax.to(".home-title", 2, {left: 200});

@@ -269,25 +269,25 @@
   }
 
   .navbar-nav {
-    .nav-link {
-      color: $navbar-dark-color;
+     .nav-link {
+       color: $navbar-dark-color;
 
-      @include hover-focus {
-        color: $navbar-dark-hover-color;
-      }
+       @include hover-focus {
+         color: $navbar-dark-hover-color;
+       }
 
-      &.disabled {
-        color: $navbar-dark-disabled-color;
-      }
-    }
+       &.disabled {
+         color: $navbar-dark-disabled-color;
+       }
+     }
 
-    .show > .nav-link,
-    .active > .nav-link,
-    .nav-link.show,
-    .nav-link.active {
-      color: $navbar-dark-active-color;
-    }
-  }
+     .show > .nav-link,
+     .active > .nav-link,
+     .nav-link.show,
+     .nav-link.active {
+       color: $navbar-dark-active-color;
+     }
+   }
 
   .navbar-toggler {
     color: $navbar-dark-color;
