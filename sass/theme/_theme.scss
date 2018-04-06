@@ -4,15 +4,18 @@
   background-image: url("../img/home_section_pic.jpg");
   background-repeat: no-repeat;
   background-position: center;
+  background-size: cover;
   height: 968px;
+
 }
 
-.navbar {
-  background-color: transparent!important;
-}
+//.navbar {
+//  background-color: transparent!important;
+//}
 
 // Dark links against a light background
-.navbar-light {
+.navbar-home {
+
   .navbar-brand {
     color: white;
     font-weight: bold;
@@ -27,10 +30,12 @@
     .nav-link {
       color: white;
       font-weight: bold;
-      font-size: 2rem;
+      font-size: 1.5rem;
+      margin-right: 4rem;
+      margin-top: 1rem;
 
       @include hover-focus {
-        color: $navbar-light-hover-color;
+        color: white;
         text-decoration: underline;
       }
 
@@ -43,27 +48,29 @@
     .active > .nav-link,
     .nav-link.show,
     .nav-link.active {
-      color: $navbar-light-active-color;
+      color: white;
     }
   }
 
   .navbar-toggler {
-    color: $navbar-light-color;
-    border-color: $navbar-light-toggler-border-color;
+    color: white;
+    border-color: white;
   }
 
   .navbar-toggler-icon {
-    background-image: $navbar-light-toggler-icon-bg;
+    background-image: white;
   }
 
   .navbar-text {
-    color: $navbar-light-color;
-      a {
-        color: $navbar-light-active-color;
+    color: white;
+    a {
+      color: white;
 
       @include hover-focus {
-        color: $navbar-light-active-color;
+        color: white;
       }
     }
   }
 }
+
+
